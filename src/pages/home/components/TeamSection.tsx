@@ -6,17 +6,17 @@ const TeamSection = () => {
     {
       name: 'Psk. Nur Deniz Yüksel',
       specialty: 'Bireysel Terapi, Çift Terapisi, Cinsel Terapi, EMDR',
-      image: 'https://readdy.ai/api/search-image?query=professional%20female%20psychologist%20in%20her%2040s%2C%20warm%20smile%2C%20wearing%20elegant%20business%20attire%2C%20professional%20headshot%20with%20soft%20neutral%20background%2C%20conveying%20trust%20and%20expertise%20in%20mental%20health%20counseling&width=400&height=500&seq=psychologist-female-1&orientation=portrait',
+      image: '/images/team/nur-deniz-yuksel.png',
     },
     {
       name: 'Psk. Nezihi Ünal',
       specialty: 'Çocuk ve Ergen Terapisi, Oyun Terapisi, EMDR',
-      image: 'https://readdy.ai/api/search-image?query=professional%20male%20psychologist%20in%20his%2040s%2C%20friendly%20expression%2C%20wearing%20professional%20attire%2C%20headshot%20with%20soft%20neutral%20background%2C%20creating%20sense%20of%20approachability%20and%20professional%20expertise&width=400&height=500&seq=psychologist-male-1&orientation=portrait',
+      image: '/images/team/nezihi-unal.png',
     },
     {
       name: 'Psk. Büşra Demirbaş',
       specialty: 'Çocuk, Ergen ve Yetişkin Terapisi, Bilişsel Davranışçı Terapi',
-      image: 'https://readdy.ai/api/search-image?query=young%20professional%20female%20psychologist%20in%20her%2030s%2C%20gentle%20smile%2C%20wearing%20modern%20professional%20clothing%2C%20headshot%20with%20soft%20neutral%20background%2C%20conveying%20warmth%20and%20expertise%20in%20child%20psychology&width=400&height=500&seq=psychologist-female-2&orientation=portrait',
+      image: '/images/team/busra-demirbas.png',
     },
   ];
 

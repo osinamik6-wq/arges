@@ -11,7 +11,7 @@ const BusraDemirbasPage = () => {
     education: 'Akdeniz Üniversitesi Psikoloji Bölümü (Onur Derecesi)',
     experience: 'Aktif olarak çalışmakta',
     description: "Bilişsel Davranışçı Terapi eğitim sürecini Prof. Dr. Hakan Türkçapar ile tamamlamıştır. Çocuk Merkezli Oyun Terapisi eğitimini Klinik Psikolog Mehmet Teber ile almıştır. MOXO Dikkat Testi ve Attentioner Dikkat Geliştirme Uygulayıcı sertifikalarına sahiptir.",
-    image: 'https://readdy.ai/api/search-image?query=warm%20friendly%20turkish%20female%20child%20psychologist%20in%20her%20late%20twenties%20wearing%20colorful%20professional%20casual%20clothing%20gentle%20caring%20expression%20in%20bright%20playful%20therapy%20room%20with%20soft%20lighting%20cream%20tones&width=600&height=800&seq=team003&orientation=portrait',
+    image: '/images/team/busra-demirbas.png',
   };
 
   return (

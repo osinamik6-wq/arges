@@ -12,7 +12,7 @@ const TeamPage = () => {
       education: 'Nuh Naci Yazgan Üniversitesi Psikoloji Bölümü',
       experience: '2019\'dan beri',
       description: 'Psikoterapi sürecinde ağırlıklı olarak Şema Terapi, Bilişsel Davranışçı Terapi, EMDR Terapisi; cinsel terapi süreçlerinde Seksofonksiyonel Cinsel Terapi ekollerini kullanmaktadır. Halihazırda terapi eğitimlerine ve süpervizyonlara devam etmektedir.',
-      image: 'https://readdy.ai/api/search-image?query=professional%20turkish%20female%20psychologist%20in%20her%20thirties%20wearing%20elegant%20business%20attire%20warm%20smile%20confident%20posture%20in%20modern%20office%20setting%20with%20soft%20natural%20lighting%20cream%20tones%20portrait%20photography&width=600&height=800&seq=team001&orientation=portrait',
+      image: '/images/team/nur-deniz-yuksel.png',
     },
     {
       name: 'Psk. Nezihi Ünal',
@@ -21,7 +21,7 @@ const TeamPage = () => {
       education: 'Nuh Naci Yazgan Üniversitesi Psikoloji Bölümü',
       experience: '2019\'dan beri',
       description: 'Psikoterapi sürecinde yoğun olarak Deneyimsel Oyun Terapisi, Çocuk ve Ergenlerde Bilişsel Davranışçı Terapi, Çocuk ve Ergenlerde EMDR Terapisi ekollerini kullanmaktadır. İhtiyaç duyulması halinde dikkat geliştirme programları da uygulamaktadır.',
-      image: 'https://readdy.ai/api/search-image?query=professional%20turkish%20male%20psychologist%20in%20his%20thirties%20wearing%20smart%20casual%20business%20attire%20friendly%20approachable%20smile%20in%20modern%20therapy%20office%20with%20warm%20natural%20lighting%20cream%20background%20portrait&width=600&height=800&seq=team002&orientation=portrait',
+      image: '/images/team/nezihi-unal.png',
     },
     {
       name: 'Psk. Büşra Demirbaş',
@@ -30,7 +30,7 @@ const TeamPage = () => {
       education: 'Akdeniz Üniversitesi Psikoloji Bölümü (Onur Derecesi)',
       experience: 'Aktif olarak çalışmakta',
       description: 'Bilişsel Davranışçı Terapi eğitim sürecini Prof. Dr. Hakan Türkçapar ile tamamlamıştır. Çocuk Merkezli Oyun Terapisi eğitimini Klinik Psikolog Mehmet Teber ile almıştır. MOXO Dikkat Testi ve Attentioner Dikkat Geliştirme Uygulayıcı sertifikalarına sahiptir.',
-      image: 'https://readdy.ai/api/search-image?query=warm%20friendly%20turkish%20female%20child%20psychologist%20in%20her%20late%20twenties%20wearing%20colorful%20professional%20casual%20clothing%20gentle%20caring%20expression%20in%20bright%20playful%20therapy%20room%20with%20soft%20lighting%20cream%20tones&width=600&height=800&seq=team003&orientation=portrait',
+      image: '/images/team/busra-demirbas.png',
     },
   ];
 

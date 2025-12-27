@@ -11,7 +11,7 @@ const NurDenizYukselPage = () => {
     education: 'Nuh Naci Yazgan Üniversitesi Psikoloji Bölümü',
     experience: "2019'dan beri",
     description: "Psikoterapi sürecinde ağırlıklı olarak Şema Terapi, Bilişsel Davranışçı Terapi, EMDR Terapisi; cinsel terapi süreçlerinde Seksofonksiyonel Cinsel Terapi ekollerini kullanmaktadır. Halihazırda terapi eğitimlerine ve süpervizyonlara devam etmektedir.",
-    image: 'https://readdy.ai/api/search-image?query=professional%20turkish%20female%20psychologist%20in%20her%20thirties%20wearing%20elegant%20business%20attire%20warm%20smile%20confident%20posture%20in%20modern%20office%20setting%20with%20soft%20natural%20lighting%20cream%20tones%20portrait%20photography&width=600&height=800&seq=team001&orientation=portrait',
+    image: '/images/team/nur-deniz-yuksel.png',
   };
 
   return (

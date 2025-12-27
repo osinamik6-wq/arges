@@ -11,7 +11,7 @@ const NezihiUnalPage = () => {
     education: 'Nuh Naci Yazgan Üniversitesi Psikoloji Bölümü',
     experience: "2019'dan beri",
     description: "Psikoterapi sürecinde yoğun olarak Deneyimsel Oyun Terapisi, Çocuk ve Ergenlerde Bilişsel Davranışçı Terapi, Çocuk ve Ergenlerde EMDR Terapisi ekollerini kullanmaktadır. İhtiyaç duyulması halinde dikkat geliştirme programları da uygulamaktadır.",
-    image: 'https://readdy.ai/api/search-image?query=professional%20turkish%20male%20psychologist%20in%20his%20thirties%20wearing%20smart%20casual%20business%20attire%20friendly%20approachable%20smile%20in%20modern%20therapy%20office%20with%20warm%20natural%20lighting%20cream%20background%20portrait&width=600&height=800&seq=team002&orientation=portrait',
+    image: '/images/team/nezihi-unal.png',
   };
 
   return (
