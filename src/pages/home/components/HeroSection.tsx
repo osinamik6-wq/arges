@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen pt-32 pb-20 px-6 lg:px-12 overflow-hidden">
+    <section className="relative pt-32 pb-20 px-6 lg:px-12 overflow-hidden">
       {/* Animated Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-cream via-olive/5 to-gold/10">
         <motion.div

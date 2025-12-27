@@ -132,14 +132,9 @@ const Footer = () => {
           <p className="font-sans text-sm text-darkgray/60">
             © 2025 Arges Psikoloji. Tüm hakları saklıdır.
           </p>
-          <a
-            href="https://readdy.ai/?ref=logo"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-sans text-sm text-darkgray/60 hover:text-olive transition-colors duration-200 mt-4 md:mt-0 cursor-pointer"
-          >
-            Powered by Readdy
-          </a>
+          <span className="font-sans text-sm text-darkgray/60 mt-4 md:mt-0">
+            Powered by UfukT
+          </span>
         </div>
       </div>
     </footer>
