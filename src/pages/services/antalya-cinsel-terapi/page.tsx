@@ -37,8 +37,11 @@ const AntalyaCinselTerapiPage = () => {
                   Antalya Cinsel Terapi
                 </h1>
 
-                <p className="font-sans text-xl text-darkgray/70 leading-relaxed">
-                  Cinsel sağlık ve yaşam kaliteniz için profesyonel cinsel terapi hizmetleri. Gizlilik ve güven ortamında uzman destek.
+                <p className="font-sans text-lg text-darkgray/70 leading-relaxed mb-2">
+                  Cinsel Sağlık İçin Güvenli ve Profesyonel Destek
+                </p>
+                <p className="font-sans text-base text-darkgray/60 leading-relaxed">
+                  Cinsel sorunlar, bireylerin yaşam kalitesini ve ilişkilerini doğrudan etkileyebilir. Konuşulması zor gibi görünse de, profesyonel destek bu süreçte çok önemlidir. Arges Psikoloji olarak gizlilik ve güven ortamında uzman desteği sunuyoruz.
                 </p>
 
                 <div className="flex flex-wrap gap-4 pt-4">

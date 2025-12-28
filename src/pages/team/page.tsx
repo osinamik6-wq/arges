@@ -63,8 +63,11 @@ const TeamPage = () => {
               <h1 className="font-serif text-5xl lg:text-7xl font-bold text-darkgray">
                 Ekibimiz
               </h1>
-              <p className="font-sans text-xl text-darkgray/70 max-w-3xl mx-auto leading-relaxed">
-                Alanında uzman, deneyimli ve empatik psikologlarımızla size en iyi hizmeti sunmak için buradayız.
+              <p className="font-sans text-lg text-darkgray/70 max-w-3xl mx-auto leading-relaxed mb-4">
+                Sizin için Buradayız
+              </p>
+              <p className="font-sans text-base text-darkgray/60 max-w-4xl mx-auto leading-relaxed">
+                Arges Psikoloji, psikoloji biliminin etik ilkelerine bağlı, akademik donanıma sahip ve alanında uzmanlaşmış profesyonellerden oluşan bir ekip ile hizmet sunar. Her bir uzmanımız; danışanlarımızın ihtiyaçlarını bilimsel temelli yöntemlerle değerlendirmekte, güvenilir ve etkili çözümler üretmektedir.
               </p>
             </motion.div>
           </div>

@@ -8,10 +8,24 @@ const NezihiUnalPage = () => {
     name: 'Psk. Nezihi Ünal',
     title: 'Psikolog',
     specialties: ['Çocuk Terapisi', 'Ergen Terapisi', 'Oyun Terapisi', 'EMDR', 'Dikkat Geliştirme Programları'],
-    education: 'Nuh Naci Yazgan Üniversitesi Psikoloji Bölümü',
+    education: 'Nuh Naci Yazgan Üniversitesi Psikoloji Bölümü (2019)',
     experience: "2019'dan beri",
-    description: "Psikoterapi sürecinde yoğun olarak Deneyimsel Oyun Terapisi, Çocuk ve Ergenlerde Bilişsel Davranışçı Terapi, Çocuk ve Ergenlerde EMDR Terapisi ekollerini kullanmaktadır. İhtiyaç duyulması halinde dikkat geliştirme programları da uygulamaktadır.",
+    description: "Lisans eğitimi sürecinde öğretim üyesi hocaları eşliğinde saha çalışmalarında bulunmuş; insan hakları, toplumsal cinsiyet konularında çalışmalar yapmıştır. Başta Manisa Ruh ve Sinir Hastalıkları Hastanesi, Manisa Toplum Ruh Sağlığı Merkezi olmak üzere farklı kurumlarda staj yapmıştır. Bunun yanı sıra çeşitli özel danışmanlık merkezlerinde ve kreşlerde uzman psikologlar ve psikiyatristler eşliğinde gerekli süpervizyonları alarak danışan kabul etmiştir. Mesleki yaşantısına Arges Psikoloji bünyesinde Çocuk ve Ergen Psikolojik Danışmanlık Hizmeti vererek devam etmektedir. Psikoterapi sürecinde yoğun olarak Deneyimsel Oyun Terapisi, Çocuk ve Ergenlerde Bilişsel Davranışçı Terapi, Çocuk ve Ergenlerde EMDR Terapisi ekollerini kullanmaktadır. İhtiyaç duyulması halinde terapi süreçlerinin yanı sıra dikkat geliştirme programları da uygulamaktadır.",
     image: '/images/team/nezihi-unal.png',
+    certificates: [
+      'Bilişsel Davranışçı Terapi',
+      'Çocuk ve Ergenlerde Bilişsel Davranışçı Terapi',
+      'Deneyimsel Oyun Terapisi (DOT)',
+      'EMDR Eğitimi',
+      'Çocuk ve Yetişkin Değerlendirmede Objektif Testler',
+      'Çocuk Değerlendirmede Projektif Testler',
+      'Filial Terapi',
+      'Resim Analizi Eğitimi',
+      'Çocuk İhmal ve İstismarı Eğitimi',
+      'Çocuklarda Travma Eğitimi',
+      'Çocuk ve Ekran Bağımlılığı',
+      'Masal Terapisi',
+    ],
   };
 
   return (
@@ -93,6 +107,22 @@ const NezihiUnalPage = () => {
                         className="inline-flex items-center px-4 py-2 bg-olive/10 text-darkgray rounded-full font-sans text-sm"
                       >
                         {specialty}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="space-y-3">
+                  <p className="font-sans text-sm font-semibold text-darkgray/60 uppercase tracking-wide">
+                    Sertifikalar ve Eğitimler
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {member.certificates.map((cert, idx) => (
+                      <span
+                        key={idx}
+                        className="inline-flex items-center px-3 py-1 bg-gold/10 text-darkgray rounded-full font-sans text-xs"
+                      >
+                        {cert}
                       </span>
                     ))}
                   </div>

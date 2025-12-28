@@ -37,8 +37,11 @@ const BbmpPage = () => {
                   BBMP Programı
                 </h1>
 
-                <p className="font-sans text-xl text-darkgray/70 leading-relaxed">
-                  Beyin ve Beden Motor Programı (BBMP), nörolojik gelişimi destekleyen, dikkat ve odaklanmayı artıran özel bir egzersiz programıdır.
+                <p className="font-sans text-lg text-darkgray/70 leading-relaxed mb-2">
+                  Beyin ve Beden Uyumunu Güçlendirin
+                </p>
+                <p className="font-sans text-base text-darkgray/60 leading-relaxed">
+                  BBMP (Beyin ve Beden Motor Programı), dikkat, koordinasyon ve öğrenme becerilerini geliştirmek için tasarlanmış bilimsel temelli bir müdahale programıdır. Nöromotor egzersizler, beyin-beden bağlantısını güçlendirir.
                 </p>
 
                 <div className="flex flex-wrap gap-4 pt-4">

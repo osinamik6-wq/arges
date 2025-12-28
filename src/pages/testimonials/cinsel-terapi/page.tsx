@@ -5,10 +5,7 @@ import WhatsAppButton from '../../../components/feature/WhatsAppButton';
 
 const TestimonialsCinselTerapiPage = () => {
   const testimonials = [
-    { initials: 'A.B.', rating: 5, text: 'Yıllarca yaşadığım sorunlar için cesaret edip yardım aldım. Hayatım değişti.', service: 'Cinsel Terapi' },
-    { initials: 'M.K.', rating: 5, text: 'Gizlilik ve profesyonellik içinde sorunlarımızı çözüme kavuşturduk.', service: 'Cinsel Terapi' },
-    { initials: 'E.S.', rating: 5, text: 'İlişkimizdeki yakınlık sorunları terapiyle çözüldü. Çok mutluyuz.', service: 'Cinsel Terapi' },
-    { initials: 'C.D.', rating: 5, text: 'Profesyonel yaklaşım ve anlayışlı ortam sayesinde sorunlarımı aştım.', service: 'Cinsel Terapi' },
+    { initials: 'Anonim', rating: 5, text: 'Cinsel terapi sürecimiz tamamen gizlilik prensibiyle yürütüldü. Seksofonksiyonel Cinsel Terapi eğitimi almış uzmanlarla çalışmak bize güven verdi. Yargılamayan ve destekleyici yaklaşım sayesinde sorunlarımızı rahatça paylaşabildik.', service: 'Cinsel Terapi' },
   ];
 
   return (

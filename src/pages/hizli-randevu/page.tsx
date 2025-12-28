@@ -48,8 +48,11 @@ const HizliRandevuPage = () => {
               <h1 className="font-serif text-5xl lg:text-7xl font-bold text-darkgray">
                 Hızlı Randevu
               </h1>
-              <p className="font-sans text-xl text-darkgray/70 max-w-3xl mx-auto">
-                Profesyonel psikolojik destek için hemen randevu alın.
+              <p className="font-sans text-lg text-darkgray/70 max-w-3xl mx-auto mb-2">
+                Hazır mısınız? Sizin için buradayız.
+              </p>
+              <p className="font-sans text-base text-darkgray/60 max-w-3xl mx-auto">
+                Hayat bazen ağır gelir. Yanınızda sizi anlayan, dinleyen ve eşlik eden bir uzman olsun istersiniz. Arges Psikoloji olarak, ilk adımı sizin adınıza kolaylaştırıyoruz.
               </p>
             </motion.div>
 

@@ -89,8 +89,11 @@ const SasLifePage = () => {
                   Yaşamınızı <span className="text-gold">Dönüştürün</span>
                 </h1>
 
-                <p className="font-sans text-xl text-darkgray/70 leading-relaxed">
-                  SAS Life, yaşam becerilerinizi geliştirmek ve kişisel potansiyelinizi ortaya çıkarmak için tasarlanmış kapsamlı bir programdır. Hedef belirleme, duygusal zeka, ilişki becerileri ve özgüven geliştirme modülleriyle hayatınızda kalıcı değişimler yaratın.
+                <p className="font-sans text-lg text-darkgray/70 leading-relaxed mb-2">
+                  Yaşam Kalitesini Artırmak İçin
+                </p>
+                <p className="font-sans text-base text-darkgray/60 leading-relaxed">
+                  SAS Life, yaşam becerilerinizi geliştirmek için tasarlanmış bir programdır. Kişisel değerler, hedefler, ilişki becerileri ve yaşam yönetimi konularında farkındalık kazanırsınız.
                 </p>
 
                 <div className="flex items-center space-x-6 pt-2">

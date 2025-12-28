@@ -37,8 +37,11 @@ const AntalyaCiftTerapisiPage = () => {
                   Antalya Çift Terapisi
                 </h1>
 
-                <p className="font-sans text-xl text-darkgray/70 leading-relaxed">
-                  İlişkinizi güçlendirmek ve sorunlarınızı çözümlemek için profesyonel çift terapisi. Mutlu ve sağlıklı bir ilişki için yanınızdayız.
+                <p className="font-sans text-lg text-darkgray/70 leading-relaxed mb-2">
+                  İlişkinizi Güçlendirmek İçin Profesyonel Destek
+                </p>
+                <p className="font-sans text-base text-darkgray/60 leading-relaxed">
+                  Romantik ilişkiler, hayatımızın en önemli parçalarından biridir. Ancak zaman içinde iletişim kopuklukları, güven sorunları veya farklı beklentiler ilişkide zorluklara yol açabilir. Çift terapisi; bu sorunların çözümünde profesyonel bir rehberlik sunar.
                 </p>
 
                 <div className="flex flex-wrap gap-4 pt-4">

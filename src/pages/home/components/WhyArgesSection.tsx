@@ -8,32 +8,32 @@ const WhyArgesSection = () => {
   const features = [
     {
       icon: 'ri-heart-3-line',
-      title: 'Empati Odaklı Yaklaşım',
-      description: 'Her danışanımıza özel, empatik ve anlayışlı bir yaklaşım sunuyoruz',
+      title: 'Empatiyle Yaklaşım',
+      description: 'Tüm uzmanlarımız, sizi anlayışla karşılayarak güvenli ve destekleyici bir ortam sunar.',
       color: 'text-olive',
     },
     {
-      icon: 'ri-shield-check-line',
-      title: 'Gizlilik Garantisi',
-      description: 'Tüm görüşmeleriniz tamamen gizli ve güvenli ortamda gerçekleşir',
+      icon: 'ri-user-settings-line',
+      title: 'Kişiye Özel',
+      description: 'Hazır kalıplar değil, tamamen size özel planlama ve çözüm önerileri sunuyoruz.',
       color: 'text-gold',
     },
     {
       icon: 'ri-user-star-line',
       title: 'Uzman Kadro',
-      description: 'Alanında deneyimli ve sertifikalı psikolog kadromuzla hizmetinizdeyiz',
+      description: 'İhtiyacınıza en uygun uzmanla eşleştiriliyor, sürece güvenle başlıyorsunuz.',
       color: 'text-olive',
     },
     {
-      icon: 'ri-user-heart-line',
-      title: 'Kişiye Özel Yaklaşım',
-      description: 'Her bireyin benzersiz olduğunu bilerek özel terapi planları oluşturuyoruz',
+      icon: 'ri-shield-check-line',
+      title: 'Güvenilir Hizmet',
+      description: 'Danışan haklarına saygılı, gizlilik ilkesine bağlı ve etik değerlere dayalı bir süreç sunuyoruz.',
       color: 'text-gold',
     },
     {
-      icon: 'ri-time-line',
-      title: 'Esnek Randevu Saatleri',
-      description: 'Yoğun programınıza uygun esnek randevu seçenekleri sunuyoruz',
+      icon: 'ri-video-chat-line',
+      title: 'Esnek Seçenekler',
+      description: 'Online ve yüz yüze esnek seans seçenekleri ile süreç boyunca aktif takip ve destek.',
       color: 'text-olive',
     },
   ];
@@ -90,10 +90,10 @@ const WhyArgesSection = () => {
         >
           <h2 className="font-serif text-4xl lg:text-5xl font-bold mb-4">
             <span className="text-darkgray">Neden </span>
-            <span className="text-olive">Arges Psikoloji?</span>
+            <span className="text-olive">Arges?</span>
           </h2>
           <p className="font-sans text-base text-darkgray/60">
-            Size en iyi hizmeti sunmak için buradayız
+            Her Adımda Yanınızdayız
           </p>
         </motion.div>
 

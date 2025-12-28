@@ -38,8 +38,11 @@ const DehbNedirPage = () => {
                   DEHB Nedir?
                 </h1>
 
-                <p className="font-sans text-xl text-darkgray/70 leading-relaxed">
-                  Dikkat Eksikliği Hiperaktivite Bozukluğu (DEHB), dikkat, hiperaktivite ve dürtüsellik alanlarında zorluk yaşanan nörogelişimsel bir bozukluktur.
+                <p className="font-sans text-lg text-darkgray/70 leading-relaxed mb-2">
+                  DEHB Hakkında Bilmeniz Gerekenler
+                </p>
+                <p className="font-sans text-base text-darkgray/60 leading-relaxed">
+                  Dikkat Eksikliği ve Hiperaktivite Bozukluğu (DEHB), çocukluk çağında başlayan ve çoğu zaman yetişkinlikte de devam eden bir nöro-gelişimsel bozukluktur. Dikkat dağınıklığı, dürtüsellik ve hiperaktivite gibi belirtilerle kendini gösterir.
                 </p>
 
                 <div className="flex flex-wrap gap-4 pt-4">

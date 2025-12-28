@@ -99,8 +99,11 @@ const SasSmartPage = () => {
                   Öğrenme Gücünüzü <span className="text-gold">Keşfedin</span>
                 </h1>
 
-                <p className="font-sans text-xl text-darkgray/70 leading-relaxed">
-                  SAS Smart, akademik başarı ve öğrenme verimliliği için tasarlanmış bilimsel bir programdır. Etkili çalışma teknikleri, hafıza güçlendirme ve zaman yönetimi becerileri ile potansiyelinizi ortaya çıkarın.
+                <p className="font-sans text-lg text-darkgray/70 leading-relaxed mb-2">
+                  Akademik Başarıyı Artırmak İçin
+                </p>
+                <p className="font-sans text-base text-darkgray/60 leading-relaxed">
+                  SAS Smart, akademik performansınızı üst düzeye taşımak için tasarlanmış kapsamlı bir programdır. Öğrenme teknikleri, zaman yönetimi ve dikkat güçlendirme stratejilerini içerir.
                 </p>
 
                 <div className="flex items-center space-x-6 pt-2">

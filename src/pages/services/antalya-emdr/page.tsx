@@ -37,8 +37,11 @@ const AntalyaEmdrPage = () => {
                   Antalya EMDR Terapisi
                 </h1>
 
-                <p className="font-sans text-xl text-darkgray/70 leading-relaxed">
-                  Göz hareketleri ile duyarsızlaştırma ve yeniden işleme terapisi. Travma ve zorlu yaşam deneyimlerinin tedavisinde etkili bir yöntem.
+                <p className="font-sans text-lg text-darkgray/70 leading-relaxed mb-2">
+                  Travmadan Özgürleşmenin Bilimsel Yolu
+                </p>
+                <p className="font-sans text-base text-darkgray/60 leading-relaxed">
+                  EMDR (Eye Movement Desensitization and Reprocessing – Göz Hareketleri ile Duyarsızlaştırma ve Yeniden İşleme), travma ve stres kaynaklı sorunların tedavisinde dünya genelinde yaygın olarak kullanılan ve etkinliği kanıtlanmış bir terapi yöntemidir.
                 </p>
 
                 <div className="flex flex-wrap gap-4 pt-4">

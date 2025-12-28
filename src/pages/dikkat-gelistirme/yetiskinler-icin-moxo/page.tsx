@@ -37,8 +37,11 @@ const YetiskinlerIcinMoxoPage = () => {
                   Yetişkinler İçin MOXO
                 </h1>
 
-                <p className="font-sans text-xl text-darkgray/70 leading-relaxed">
-                  Yetişkinlerde dikkat eksikliği değerlendirmesi için tasarlanmış profesyonel MOXO testi. İş ve günlük yaşam performansınızı etkileyen dikkat sorunlarını teşhis edin.
+                <p className="font-sans text-lg text-darkgray/70 leading-relaxed mb-2">
+                  Yetişkinlerde Dikkat Değerlendirmesi
+                </p>
+                <p className="font-sans text-base text-darkgray/60 leading-relaxed">
+                  DEHB yalnızca çocukluk çağına özgü bir durum değildir. Pek çok yetişkin, tanı almadan dikkat eksikliği ile yaşamını sürdürür. Yetişkinler için MOXO, 18 yaş üstü bireylerin dikkat profilini ölçen, bilimsel temelli bir testtir.
                 </p>
 
                 <div className="flex flex-wrap gap-4 pt-4">

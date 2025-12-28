@@ -7,11 +7,24 @@ const NurDenizYukselPage = () => {
   const member = {
     name: 'Psk. Nur Deniz Yüksel',
     title: 'Psikolog',
-    specialties: ['Bireysel Terapi', 'Çift Terapisi', 'Cinsel Terapi', 'EMDR', 'Ergen Danışmanlığı'],
-    education: 'Nuh Naci Yazgan Üniversitesi Psikoloji Bölümü',
+    specialties: ['Çift Terapisi', 'EMDR', 'Cinsel Terapi', 'Ergen', 'Bireysel Psikolojik Danışmanlık'],
+    education: 'Nuh Naci Yazgan Üniversitesi Psikoloji Bölümü (Tam Burslu, 2019)',
     experience: "2019'dan beri",
-    description: "Psikoterapi sürecinde ağırlıklı olarak Şema Terapi, Bilişsel Davranışçı Terapi, EMDR Terapisi; cinsel terapi süreçlerinde Seksofonksiyonel Cinsel Terapi ekollerini kullanmaktadır. Halihazırda terapi eğitimlerine ve süpervizyonlara devam etmektedir.",
+    description: "Lisans eğitimi sürecinde Atatürk Üniversitesi Eğitim ve Araştırma Hastanesi, Manisa Ruh Sağlığı ve Hastalıkları Hastanesi, Manisa Toplum ve Ruh Sağlığı Merkezi gibi kurumlarda; bunun yanı sıra bazı özel danışmanlık merkezlerinde ve kreşlerde uzman psikologlar ve psikiyatristler eşliğinde stajlarını tamamlayarak, gerekli süpervizyonları ve eğitimleri almıştır. Meslek yaşantısında farklı psikolojik danışmanlık merkezlerinde ve kreşlerde çalışmıştır. Bu kurumlarda; bireysel psikolojik danışmanlık, çift ve aile psikolojik danışmanlığı, cinsel terapi alanlarında danışan kabul etmiştir. Psikoterapi sürecinde ağırlıklı olarak Şema Terapi, Bilişsel Davranışçı Terapi, EMDR Terapisi; cinsel terapi süreçlerinde Seksofonksiyonel Cinsel Terapi ekollerini kullanmaktadır. Halihazırda terapi eğitimlerine ve süpervizyonlara devam etmektedir.",
     image: '/images/team/nur-deniz-yuksel.png',
+    certificates: [
+      'Şema Terapi',
+      'Bilişsel Davranışçı Terapi',
+      'Seksofonksiyonel Cinsel Terapi',
+      'EMDR Eğitimi',
+      'Çocuk ve Ergenlerde Bilişsel Davranışçı Terapi',
+      'Yetişkin Değerlendirmede Objektif-Projektif Testler',
+      'OKB Tedavisinde Bilişsel Davranışçı Terapi Yaklaşımı',
+      'Çift Terapisinde Evlilik Dışı İlişkileri Ele Alma',
+      'Travma Testleri Eğitimi',
+      'Travma Sonrası Stres Bozukluğu Eğitimi',
+      'Çözüm Odaklı Aile Terapisi',
+    ],
   };
 
   return (
@@ -93,6 +106,22 @@ const NurDenizYukselPage = () => {
                         className="inline-flex items-center px-4 py-2 bg-olive/10 text-darkgray rounded-full font-sans text-sm"
                       >
                         {specialty}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="space-y-3">
+                  <p className="font-sans text-sm font-semibold text-darkgray/60 uppercase tracking-wide">
+                    Sertifikalar ve Eğitimler
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {member.certificates.map((cert, idx) => (
+                      <span
+                        key={idx}
+                        className="inline-flex items-center px-3 py-1 bg-gold/10 text-darkgray rounded-full font-sans text-xs"
+                      >
+                        {cert}
                       </span>
                     ))}
                   </div>

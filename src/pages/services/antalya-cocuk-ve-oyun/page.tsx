@@ -37,8 +37,11 @@ const AntalyaCocukVeOyunPage = () => {
                   Çocuk ve Oyun Terapisi
                 </h1>
 
-                <p className="font-sans text-xl text-darkgray/70 leading-relaxed">
-                  Antalya'da 3-12 yaş arası çocuklara yönelik oyun terapisi ve psikolojik destek hizmetleri. Çocuğunuzun duygusal gelişimini destekliyoruz.
+                <p className="font-sans text-lg text-darkgray/70 leading-relaxed mb-2">
+                  Çocuğunuzun Dünyasını Anlamak İçin Buradayız
+                </p>
+                <p className="font-sans text-base text-darkgray/60 leading-relaxed">
+                  Çocuğunuz zaman zaman zorluklarla karşılaşabilir. Bu süreçte; güvenilir, uzman ve oyuna dayalı bir destek almak, çocuğunuzun duygusal ve davranışsal gelişimini güçlendirir. Arges Psikoloji olarak çocuğunuzun gelişimini destekliyoruz.
                 </p>
 
                 <div className="flex flex-wrap gap-4 pt-4">

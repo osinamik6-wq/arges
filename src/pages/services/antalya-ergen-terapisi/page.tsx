@@ -37,8 +37,11 @@ const AntalyaErgenTerapisiPage = () => {
                   Antalya Ergen Terapisi
                 </h1>
 
-                <p className="font-sans text-xl text-darkgray/70 leading-relaxed">
-                  12-18 yaş arası gençler için özel olarak tasarlanmış psikolojik destek. Ergenlik döneminin zorluklarında yanınızdayız.
+                <p className="font-sans text-lg text-darkgray/70 leading-relaxed mb-2">
+                  Ergenlik Döneminde Profesyonel Destek
+                </p>
+                <p className="font-sans text-base text-darkgray/60 leading-relaxed">
+                  Ergenlik, fiziksel, duygusal ve sosyal açıdan büyük değişimlerin yaşandığı karmaşık bir dönemdir. Bu süreçte genciniz için güvenli bir alan oluşturmak ve sağlıklı gelişimini desteklemek için yanınızdayız.
                 </p>
 
                 <div className="flex flex-wrap gap-4 pt-4">

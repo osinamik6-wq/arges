@@ -5,10 +5,7 @@ import WhatsAppButton from '../../../components/feature/WhatsAppButton';
 
 const TestimonialsBireyselPage = () => {
   const testimonials = [
-    { initials: 'S.M.', rating: 5, text: 'Yıllarca depresyonla mücadele ettim. Terapi sayesinde hayatıma yeniden anlam kattım.', service: 'Bireysel Terapi' },
-    { initials: 'A.Y.', rating: 5, text: 'Kaygı bozukluğum günlük hayatımı olumsuz etkiliyordu. Şimdi çok daha iyi hissediyorum.', service: 'Bireysel Terapi' },
-    { initials: 'E.K.', rating: 5, text: 'Öfke kontrolü sorunum vardı. Terapistim sayesinde duygularımı yönetmeyi öğrendim.', service: 'Bireysel Terapi' },
-    { initials: 'C.B.', rating: 5, text: 'Özgüven eksikliği yaşıyordum. Terapi ile kendime olan inancım arttı.', service: 'Bireysel Terapi' },
+    { initials: 'M.K.', rating: 5, text: 'Deniz Hanım\'a sosyal medya üzerinde ulaştım. Ortalama 8 seans görüştük. İlişkimle alakalı kıskançlığım beni zorluyordu ve her şeyi gereğinden fazla sorguluyordum. Artık bazı durumların bana ve hayatıma zarar verdiğini fark edip destek almaya başladım. Danışmanlık sürecim çok güzel ilerledi ve çok güzel sonuçlar aldım. Benim için çok güzel bir deneyimdi. Deniz Hanım\'ın ilgisi ve anlayışı daha da güzeldi. Her şeyden çok memnun kaldım.', service: 'Bireysel Terapi' },
   ];
 
   return (

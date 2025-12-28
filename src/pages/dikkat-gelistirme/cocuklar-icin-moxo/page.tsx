@@ -37,8 +37,11 @@ const CocuklarIcinMoxoPage = () => {
                   Çocuklar İçin MOXO Testi
                 </h1>
 
-                <p className="font-sans text-xl text-darkgray/70 leading-relaxed">
-                  MOXO, çocuklarda dikkat eksikliği ve hiperaktiviteyi ölçen, FDA onaylı bilgisayar tabanlı bir dikkat testidir. Oyun gibi eğlenceli bir test deneyimi sunar.
+                <p className="font-sans text-lg text-darkgray/70 leading-relaxed mb-2">
+                  Çocuğunuzun Dikkat Profilini Keşfedin
+                </p>
+                <p className="font-sans text-base text-darkgray/60 leading-relaxed">
+                  MOXO, dikkat eksikliği ve hiperaktiviteyi (DEHB) değerlendirmek için geliştirilmiş, bilimsel geçerliliği kanıtlanmış bir bilgisayar testidir. 6-12 yaş aralığındaki çocuklar için tasarlanmış bu test, dikkat ve dürtüsellik düzeyini güvenilir bir şekilde ölçer.
                 </p>
 
                 <div className="flex flex-wrap gap-4 pt-4">

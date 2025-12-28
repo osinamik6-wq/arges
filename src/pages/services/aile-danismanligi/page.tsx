@@ -37,8 +37,11 @@ const AileDanismanligiPage = () => {
                   Aile Danışmanlığı
                 </h1>
 
-                <p className="font-sans text-xl text-darkgray/70 leading-relaxed">
-                  Ailenizin uyumunu ve mutluluğunu artırmak için profesyonel aile danışmanlığı hizmetleri. Sağlıklı iletişim ve güçlü aile bağları için yanınızdayız.
+                <p className="font-sans text-lg text-darkgray/70 leading-relaxed mb-2">
+                  Ailenizle Güçlü Bağlar Kurun
+                </p>
+                <p className="font-sans text-base text-darkgray/60 leading-relaxed">
+                  Aile içi iletişim sorunları, ebeveynlik güçlükleri, çatışmalar ya da bireylerin birbirini anlamakta zorlandığı dönemlerde profesyonel destek almak büyük fark yaratır. Aile danışmanlığı; ailenin tüm üyelerini dinleyerek, sorunlara çok yönlü çözümler sunan özel bir süreçtir.
                 </p>
 
                 <div className="flex flex-wrap gap-4 pt-4">

@@ -6,43 +6,43 @@ import WhatsAppButton from '../../components/feature/WhatsAppButton';
 const AboutPage = () => {
   const values = [
     {
-      icon: 'ri-heart-line',
-      title: 'Empati',
-      description: 'Her danışanımıza empatik ve anlayışlı yaklaşım',
+      icon: 'ri-award-line',
+      title: 'Uzmanlık',
+      description: 'Bilimsel temelli, deneyimli uzman kadro ile hizmet sunuyoruz.',
     },
     {
       icon: 'ri-shield-check-line',
       title: 'Gizlilik',
-      description: 'Tüm görüşmeler tamamen gizli ve güvenli',
-    },
-    {
-      icon: 'ri-lightbulb-line',
-      title: 'Bilimsellik',
-      description: 'Kanıta dayalı terapi yöntemleri',
+      description: 'Tüm görüşmeler, etik kurallar çerçevesinde ve %100 gizlilik prensibiyle yürütülür.',
     },
     {
       icon: 'ri-user-heart-line',
       title: 'Kişiye Özel',
-      description: 'Her bireye özel terapi planları',
+      description: 'Her danışana özel terapi yöntemi ve süreç planlaması yapılır.',
+    },
+    {
+      icon: 'ri-calendar-check-line',
+      title: 'Hızlı Randevu',
+      description: 'WhatsApp ve online form üzerinden kolay ve hızlı iletişim.',
     },
   ];
 
   const approaches = [
     {
+      name: 'Şema Terapi',
+      description: 'Erken dönem yaşantılardan kaynaklanan kalıpları anlamaya ve dönüştürmeye yönelik',
+    },
+    {
       name: 'Bilişsel Davranışçı Terapi (BDT)',
       description: 'Düşünce, duygu ve davranış arasındaki ilişkiyi anlamaya yönelik',
     },
     {
+      name: 'Deneyimsel Oyun Terapisi',
+      description: 'Çocukların oyun yoluyla duygularını ifade etmelerine yardımcı olan yaklaşım',
+    },
+    {
       name: 'EMDR',
-      description: 'Travma ve stres kaynaklı sorunların tedavisinde etkili',
-    },
-    {
-      name: 'Psikanalitik Terapi',
-      description: 'Bilinçaltı süreçlerin anlaşılması ve çözümlenmesi',
-    },
-    {
-      name: 'Humanistik Yaklaşım',
-      description: 'Bireyin potansiyelini gerçekleştirmesine odaklı',
+      description: 'Travma ve stres kaynaklı sorunların tedavisinde etkili göz hareketleri tekniği',
     },
   ];
 
@@ -157,7 +157,7 @@ const AboutPage = () => {
               className="text-center mb-12"
             >
               <h2 className="font-serif text-4xl lg:text-5xl font-bold text-darkgray mb-4">
-                Değerlerimiz
+                Neden Biz?
               </h2>
               <p className="font-sans text-lg text-darkgray/60">
                 Çalışmalarımızı şekillendiren temel ilkeler

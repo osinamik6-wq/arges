@@ -47,8 +47,11 @@ const AntalyaPsikologPage = () => {
                   Antalya Psikolog
                 </h1>
 
-                <p className="font-sans text-xl text-darkgray/70 leading-relaxed">
-                  Antalya'da profesyonel psikolojik danışmanlık ve terapi hizmetleri. Uzman psikologlarımız ile ruh sağlığınızı koruyun ve geliştirin.
+                <p className="font-sans text-lg text-darkgray/70 leading-relaxed mb-2">
+                  Antalya'da Güvenilir Psikolog Hizmeti
+                </p>
+                <p className="font-sans text-base text-darkgray/60 leading-relaxed">
+                  Arges Psikoloji olarak Antalya'da bireysel psikolojik danışmanlık hizmeti sunuyoruz. Uzman psikologlarımız, bilimsel temelli yöntemlerle size destek olmak için burada.
                 </p>
 
                 <div className="flex flex-wrap gap-4 pt-4">

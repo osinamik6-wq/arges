@@ -50,7 +50,7 @@ const HeroSection = () => {
             >
               <div className="w-2 h-2 bg-olive rounded-full"></div>
               <span className="font-sans text-sm text-darkgray font-medium">
-                Profesyonel Psikolojik Destek
+                Arges ile Bilimsel Yöntemlerle Destek
               </span>
             </motion.div>
 
@@ -75,7 +75,7 @@ const HeroSection = () => {
             className="lg:col-span-2 space-y-6"
           >
             <p className="font-sans text-lg text-darkgray/80 leading-relaxed">
-              Bilimsel, etik ve güvenli psikolojik destek ile hayatınıza yeniden anlam katın
+              Çiftlerden çocuklara, ergenlerden bireysel danışanlara kadar; uzman kadromuzla psikolojik sağlamlığı birlikte inşa ediyoruz. Arges Psikoloji, sizi anlamak ve eşlik etmek için burada.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">

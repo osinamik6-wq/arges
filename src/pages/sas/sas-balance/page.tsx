@@ -98,8 +98,11 @@ const SasBalancePage = () => {
                   İç Dengenizi <span className="text-gold">Bulun</span>
                 </h1>
 
-                <p className="font-sans text-xl text-darkgray/70 leading-relaxed">
-                  SAS Balance, yaşam dengenizi kurmanız, stresle sağlıklı başa çıkmanız ve iç huzurunuzu bulmanız için tasarlanmış bütüncül bir programdır. Mindfulness teknikleri ve bilimsel yaklaşımlarla kalıcı bir denge elde edin.
+                <p className="font-sans text-lg text-darkgray/70 leading-relaxed mb-2">
+                  Stres Yönetimi ve Denge İçin
+                </p>
+                <p className="font-sans text-base text-darkgray/60 leading-relaxed">
+                  SAS Balance, stres yönetimi ve yaşam dengesi üzerine odaklanır. Mindfulness teknikleri, duygusal regülasyon ve gevşeme yöntemleri ile iç huzurunuzu bulun.
                 </p>
 
                 <div className="flex items-center space-x-6 pt-2">

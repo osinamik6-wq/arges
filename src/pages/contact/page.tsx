@@ -107,7 +107,7 @@ const ContactPage = () => {
                 İletişim
               </h1>
               <p className="font-sans text-xl text-darkgray/70 max-w-3xl mx-auto leading-relaxed">
-                Sorularınız için bize ulaşın. Size en kısa sürede dönüş yapacağız.
+                İlk Adım Cesaretle Başlar. Her türlü soru, görüş ve randevu talepleriniz için bize ulaşın.
               </p>
             </motion.div>
           </div>

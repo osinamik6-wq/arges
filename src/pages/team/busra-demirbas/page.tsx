@@ -10,8 +10,18 @@ const BusraDemirbasPage = () => {
     specialties: ['Çocuk Terapisi', 'Ergen Terapisi', 'Yetişkin Terapisi', 'Bilişsel Davranışçı Terapi', 'Oyun Terapisi', 'Dikkat Testi ve Geliştirme'],
     education: 'Akdeniz Üniversitesi Psikoloji Bölümü (Onur Derecesi)',
     experience: 'Aktif olarak çalışmakta',
-    description: "Bilişsel Davranışçı Terapi eğitim sürecini Prof. Dr. Hakan Türkçapar ile tamamlamıştır. Çocuk Merkezli Oyun Terapisi eğitimini Klinik Psikolog Mehmet Teber ile almıştır. MOXO Dikkat Testi ve Attentioner Dikkat Geliştirme Uygulayıcı sertifikalarına sahiptir.",
+    description: "Lisans hayatı boyunca çeşitli kurumlardaki stajları aracılığıyla çocuk, ergen ve yetişkin alanında gözlemler yapma ve deneyim kazanma fırsatı buldu. Bu süreçte gözlemlediği bireysel görüşmeler, grup terapileri, aile danışmanlığı ve psikoeğitim çalışmaları sayesinde kendisini geliştirdi. Türk Psikologlar Derneği'nin saha çalışmalarında, oyun atölyelerinde aktif rol alarak çocuklarla ve ebeveynleriyle çalışma konusunda deneyim kazandı. Çocuk Merkezli Oyun Terapisi eğitim ve süpervizyon sürecini Klinik Psikolog Mehmet Teber ile tamamladı. Bilişsel Davranışçı Terapi eğitim sürecini Prof. Dr. Hakan Türkçapar ile Bilişsel Davranışçı Psikoterapiler Derneği'nde tamamladı. Şu anda Antalya'da yüz yüze ve online olarak danışmanlık vermeye devam etmektedir.",
     image: '/images/team/busra-demirbas.png',
+    certificates: [
+      'Çocuk Merkezli Oyun Terapisi',
+      'Bilişsel Davranışçı Terapi',
+      'MOXO Dikkat Testi Uygulayıcı Eğitimi',
+      'Attentioner Dikkat Geliştirme Uygulayıcı Eğitimi',
+      'Resim Analizi',
+      'Çocuk Değerlendirme Testleri',
+      'Kayıp ve Yasa Müdahale',
+      'Sınav Kaygısında REFCAD Programı',
+    ],
   };
 
   return (
@@ -93,6 +103,22 @@ const BusraDemirbasPage = () => {
                         className="inline-flex items-center px-4 py-2 bg-olive/10 text-darkgray rounded-full font-sans text-sm"
                       >
                         {specialty}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="space-y-3">
+                  <p className="font-sans text-sm font-semibold text-darkgray/60 uppercase tracking-wide">
+                    Sertifikalar ve Eğitimler
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {member.certificates.map((cert, idx) => (
+                      <span
+                        key={idx}
+                        className="inline-flex items-center px-3 py-1 bg-gold/10 text-darkgray rounded-full font-sans text-xs"
+                      >
+                        {cert}
                       </span>
                     ))}
                   </div>

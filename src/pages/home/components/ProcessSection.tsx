@@ -4,22 +4,22 @@ const ProcessSection = () => {
   const steps = [
     {
       icon: 'ri-phone-line',
-      title: 'İletişim Kurun',
-      description: 'Bizimle iletişime geçin ve ihtiyaçlarınızı paylaşın',
+      title: 'İletişime Geçin',
+      description: 'Bize telefon, WhatsApp ya da web sitemiz üzerinden kolayca ulaşabilirsiniz. Sorununuz ya da ihtiyacınız ne olursa olsun, ilk adımı atmak için bizimle iletişime geçmeniz yeterlidir.',
       color: 'bg-olive/20',
       buttonStyle: 'bg-darkgray text-white',
     },
     {
       icon: 'ri-calendar-check-line',
-      title: 'Randevu Alın',
-      description: 'Size uygun tarih ve saatte randevunuzu oluşturun',
+      title: 'Bilgi & Randevu',
+      description: 'Destek almak istediğiniz konuya göre en uygun uzman belirlenir. Uygunluk durumunuza göre ilk görüşme planlanır ve size özel bir randevu oluşturulur.',
       color: 'bg-gold/20',
       buttonStyle: 'bg-white text-darkgray border-2 border-darkgray',
     },
     {
       icon: 'ri-heart-pulse-line',
-      title: 'Destek Başlasın',
-      description: 'Uzman psikologlarımızla terapi sürecinize başlayın',
+      title: 'Destek Süreci',
+      description: 'Belirlenen uzmanla yapılan görüşmeler, gizlilik ve güven ilkesiyle yürütülür. Seanslar boyunca ihtiyacınıza yönelik bilimsel temelli yöntemler uygulanır.',
       color: 'bg-cream',
       buttonStyle: 'bg-white text-darkgray border-2 border-darkgray',
     },
@@ -37,10 +37,10 @@ const ProcessSection = () => {
           className="mb-16"
         >
           <h2 className="font-serif text-5xl lg:text-6xl font-bold text-darkgray mb-4">
-            Nasıl Çalışır?
+            Sadece 3 Adımda Başlayın
           </h2>
           <p className="font-sans text-lg text-darkgray/60">
-            Üç basit adımda size ulaşıyoruz
+            Arges'te Süreç Nasıl İlerliyor?
           </p>
         </motion.div>
 

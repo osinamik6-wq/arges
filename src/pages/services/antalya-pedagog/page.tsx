@@ -38,8 +38,11 @@ const AntalyaPedagogPage = () => {
                   Antalya Pedagog
                 </h1>
 
-                <p className="font-sans text-xl text-darkgray/70 leading-relaxed">
-                  Çocuğunuzun eğitim ve gelişim sürecinde uzman pedagog desteği. Öğrenme güçlükleri, dikkat eksikliği ve okul başarısı konularında profesyonel yardım.
+                <p className="font-sans text-lg text-darkgray/70 leading-relaxed mb-2">
+                  Çocuğunuzun Eğitim Sürecinde Yanınızdayız
+                </p>
+                <p className="font-sans text-base text-darkgray/60 leading-relaxed">
+                  Pedagog; çocukların bilişsel, duygusal, sosyal ve eğitimsel gelişimini destekleyen, öğrenme güçlüklerinde rehberlik eden ve ebeveynlere yol gösteren uzmandır. Çocuğunuzun potansiyelini keşfetmesine yardımcı oluyoruz.
                 </p>
 
                 <div className="flex flex-wrap gap-4 pt-4">

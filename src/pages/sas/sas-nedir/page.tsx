@@ -6,10 +6,10 @@ import { Link } from 'react-router-dom';
 
 const SasNedirPage = () => {
   const programs = [
-    { icon: 'ri-lightbulb-flash-line', name: 'SAS Smart', description: 'Akademik başarı ve öğrenme stratejileri', link: '/sas-smart', color: 'from-blue-500 to-indigo-600' },
-    { icon: 'ri-compass-3-line', name: 'SAS Life', description: 'Yaşam becerileri ve kişisel gelişim', link: '/sas-life', color: 'from-green-500 to-teal-600' },
-    { icon: 'ri-rocket-line', name: 'SAS Boost', description: 'Motivasyon ve performans artırma', link: '/sas-boost', color: 'from-orange-500 to-red-600' },
-    { icon: 'ri-scales-3-line', name: 'SAS Balance', description: 'Denge ve stres yönetimi', link: '/sas-balance', color: 'from-purple-500 to-pink-600' },
+    { icon: 'ri-lightbulb-flash-line', name: 'SAS Smart', description: 'Akademik başarı ve öğrenme stratejileri', link: '/sas-smart', color: 'from-gold to-gold/70' },
+    { icon: 'ri-compass-3-line', name: 'SAS Life', description: 'Yaşam becerileri ve kişisel gelişim', link: '/sas-life', color: 'from-olive to-olive/70' },
+    { icon: 'ri-rocket-line', name: 'SAS Boost', description: 'Motivasyon ve performans artırma', link: '/sas-boost', color: 'from-darkgray to-darkgray/80' },
+    { icon: 'ri-scales-3-line', name: 'SAS Balance', description: 'Denge ve stres yönetimi', link: '/sas-balance', color: 'from-olive/90 to-gold/90' },
   ];
 
   const methodology = [
@@ -77,8 +77,11 @@ const SasNedirPage = () => {
                   SAS Metodu Nedir?
                 </h1>
 
-                <p className="font-sans text-xl text-darkgray/70 leading-relaxed">
-                  SAS (Sistematik, Analitik, Stratejik), bireylerin potansiyellerini en üst düzeye çıkarmak için geliştirilmiş, bilimsel temelli bir kişisel gelişim metodolojisidir. Psikoloji ve nörobilim araştırmalarına dayanan bu yöntem, kalıcı ve ölçülebilir sonuçlar sağlar.
+                <p className="font-sans text-lg text-darkgray/70 leading-relaxed mb-2">
+                  SAS Metodu İle Hedeflerinize Ulaşın
+                </p>
+                <p className="font-sans text-base text-darkgray/60 leading-relaxed">
+                  SAS (Sistematik, Analitik, Stratejik), Arges Psikoloji tarafından geliştirilen özel bir kişisel gelişim programıdır. Bireylerin hedeflerine ulaşmasını destekleyen bu yapılandırılmış metodoloji; bilimsel temeller üzerine inşa edilmiştir.
                 </p>
 
                 <div className="flex flex-wrap gap-4 pt-4">

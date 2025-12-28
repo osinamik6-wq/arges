@@ -98,8 +98,11 @@ const SasBoostPage = () => {
                   Performansınızı <span className="text-gold">Zirveye Taşıyın</span>
                 </h1>
 
-                <p className="font-sans text-xl text-darkgray/70 leading-relaxed">
-                  SAS Boost, iç motivasyonunuzu ateşlemek ve en yüksek performansınıza ulaşmak için tasarlanmış güçlü bir programdır. Tükenmişliği yenin, enerjinizi artırın ve hedeflerinize kararlılıkla ilerleyin.
+                <p className="font-sans text-lg text-darkgray/70 leading-relaxed mb-2">
+                  Motivasyon ve Performans İçin
+                </p>
+                <p className="font-sans text-base text-darkgray/60 leading-relaxed">
+                  SAS Boost, motivasyon ve performansınızı artırmak için geliştirilmiştir. Hedef odaklı düşünce, enerji yönetimi ve başarı stratejileri ile potansiyelinizi ortaya çıkarın.
                 </p>
 
                 <div className="flex items-center space-x-6 pt-2">

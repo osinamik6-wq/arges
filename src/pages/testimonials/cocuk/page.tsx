@@ -5,10 +5,7 @@ import WhatsAppButton from '../../../components/feature/WhatsAppButton';
 
 const TestimonialsCocukPage = () => {
   const testimonials = [
-    { initials: 'A.K.', rating: 5, text: '7 yaşındaki oğlumun okul korkusu ve ayrılık kaygısı vardı. Oyun terapisi sayesinde çocuğumuz kendini ifade etmeyi öğrendi.', service: 'Oyun Terapisi' },
-    { initials: 'M.Y.', rating: 5, text: '5 yaşındaki kızımız gece korkusu ve kabuslar yaşıyordu. Şimdi huzurlu uykular uyuyabiliyor.', service: 'Çocuk Psikolojisi' },
-    { initials: 'E.S.', rating: 5, text: 'Oğlumuz dikkat eksikliği teşhisi almıştı. Okul başarısı belirgin şekilde arttı.', service: 'DEHB Danışmanlığı' },
-    { initials: 'S.D.', rating: 5, text: '8 yaşındaki çocuğumuzun kardeş kıskançlığı ve öfke kontrolü sorunları vardı. Ev ortamımız çok daha huzurlu.', service: 'Oyun Terapisi' },
+    { initials: 'E.A.', rating: 5, text: 'Kızım beş yaşındaydı ve tuvalet problemi ile gitmiştik. Bizim için sürekli tuvaletini etrafa yapması çok zordu. Aile olarak çok yıpranmıştık. Kendisine ilk olarak anne baba görüşmesi yapmak için gittik. Ne gerek vardı desek de en önemli kısım anne baba görüşmesiymiş aslında onu fark ettik süreçte. Danışmanlık sürecinde bizi hiç yalnız bırakmadı. Kızım zaten çok seviyordu kendisini gün sayardı hep. Seanslardan sonra yaptığı telefon görüşmeleri ise hem bize hem çocuğumuza çok iyi geldi. Kesinlikle öneririm kendisini. Güler yüzü için de ayrıca teşekkürler.', service: 'Çocuk Psikolojisi' },
   ];
 
   return (
@@ -32,8 +29,11 @@ const TestimonialsCocukPage = () => {
               <h1 className="font-serif text-5xl lg:text-7xl font-bold text-darkgray">
                 Çocuk Danışmanlığı Yorumları
               </h1>
-              <p className="font-sans text-xl text-darkgray/70 max-w-3xl mx-auto">
-                Çocuklarımızın psikolojik gelişimini destekleyen uzman kadromuz ile ailelerin yaşadığı değişimler.
+              <p className="font-sans text-lg text-darkgray/70 max-w-3xl mx-auto mb-2">
+                Danışanlarımızın Deneyimleri
+              </p>
+              <p className="font-sans text-base text-darkgray/60 max-w-3xl mx-auto">
+                Çocuk psikolojik danışmanlık hizmetimizden yararlanan ailelerimizin yorumları.
               </p>
             </motion.div>
 

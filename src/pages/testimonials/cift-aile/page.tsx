@@ -5,10 +5,7 @@ import WhatsAppButton from '../../../components/feature/WhatsAppButton';
 
 const TestimonialsCiftAilePage = () => {
   const testimonials = [
-    { initials: 'A&M', rating: 5, text: 'Evliliğimiz çok zor bir dönemden geçiyordu. Çift terapisi ile ilişkimizi yeniden kurduk.', service: 'Çift Terapisi' },
-    { initials: 'S&E', rating: 5, text: 'Yılların birikimi sorunlarımız vardı. Şimdi birbirimizi daha iyi anlıyoruz.', service: 'Çift Terapisi' },
-    { initials: 'K Ailesi', rating: 5, text: 'Aile içi iletişim sorunlarımızı çözdük. Çocuklarımızla ilişkimiz iyileşti.', service: 'Aile Terapisi' },
-    { initials: 'Y&D', rating: 5, text: 'Boşanma eşiğinden döndük. Terapistimize minnettarız.', service: 'Çift Terapisi' },
+    { initials: 'A&E', rating: 5, text: 'Deniz Hanım\'dan evliliğimiz hakkında destek aldık. Eşim ilk etapta terapiye gitme konusunda isteksizdi ama Deniz Hanım\'ın yaklaşımı onu rahatlatınca istekle gitmeye başladı. Nur Deniz Hanım\'la birlikte sorunlarımızı etkili bir biçimde çözdük ve seanslarla çözmeye devam ediyoruz. Çok güler yüzlü, samimi ve işinde çok başarılı biri. İnsana güven veriyor ve sıkıntınızı rahatça paylaşabiliyorsunuz. Kesinlikle tavsiye ederim. Eşimle paylaşamadığım birçok sorunu orada daha rahat bir biçimde dile getirebildim. Kendisine çok teşekkür ederim.', service: 'Çift Terapisi' },
   ];
 
   return (

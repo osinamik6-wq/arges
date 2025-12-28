@@ -5,10 +5,7 @@ import WhatsAppButton from '../../../components/feature/WhatsAppButton';
 
 const TestimonialsErgenPage = () => {
   const testimonials = [
-    { initials: 'N.K.', rating: 5, text: '16 yaşındaki kızımız depresyon belirtileri gösteriyordu. Terapi sayesinde kendine güveni arttı.', service: 'Ergen Terapisi' },
-    { initials: 'H.Y.', rating: 5, text: '14 yaşındaki oğlumuz sınav kaygısı yaşıyordu. Şimdi çok daha rahat ve başarılı.', service: 'Ergen Danışmanlığı' },
-    { initials: 'T.A.', rating: 5, text: 'Ergen kızımızın sosyal kaygı sorunu vardı. Arkadaşlıkları ve okul hayatı iyileşti.', service: 'Ergen Terapisi' },
-    { initials: 'D.B.', rating: 5, text: 'Oğlumuzun ergenlik dönemi zorluydu. Profesyonel destek ile bu dönemi atlattık.', service: 'Ergen Danışmanlığı' },
+    { initials: 'A.D.', rating: 5, text: 'Nezihi Hocaya Google üzerinden ulaştım. 17 yaşımdayım. Depresyondaydım sürece başladığımda. 8 seans kadar kendisine devam ettim. Kendisinden memnun kaldım. Bazı nedenlerden ötürü süreci yarıda bırakmak zorunda kaldım. Kendisini öneriyorum etrafımda ihtiyaç duyanlara. Bana çok yardımcı oldu. Empatisi güler yüzü ve her konuda gösterdiği şefkati bana çok iyi geldi. Ayrıca sürecin sonrasında görüş formu iletmesi de hoşuma giden durumlardan biriydi. Başarılarının devamını dilerim.', service: 'Ergen Terapisi' },
   ];
 
   return (
