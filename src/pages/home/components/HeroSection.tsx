@@ -48,9 +48,9 @@ const HeroSection = () => {
               transition={{ delay: 0.2 }}
               className="inline-flex items-center space-x-2 bg-white px-5 py-2 rounded-full shadow-sm"
             >
-              <div className="w-2 h-2 bg-olive rounded-full"></div>
+              <i className="ri-map-pin-2-fill text-olive"></i>
               <span className="font-sans text-sm text-darkgray font-medium">
-                Arges ile Bilimsel Yöntemlerle Destek
+                Antalya'nın Güvenilir Psikoloji Merkezi
               </span>
             </motion.div>
 
@@ -61,10 +61,27 @@ const HeroSection = () => {
               transition={{ delay: 0.4 }}
               className="font-serif text-5xl lg:text-7xl font-bold text-darkgray leading-tight"
             >
-              Ruhunuza
+              <span className="text-olive">Antalya Psikolog</span>
               <br />
-              <span className="text-olive">Işık Tutun</span>
+              Arges Psikoloji
             </motion.h1>
+
+            {/* Phone Number - Prominent */}
+            <motion.a
+              href="tel:+905403251525"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.5 }}
+              className="inline-flex items-center space-x-3 bg-olive/10 hover:bg-olive/20 px-6 py-3 rounded-full transition-all duration-300 cursor-pointer group"
+            >
+              <div className="w-10 h-10 bg-olive rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
+                <i className="ri-phone-fill text-white text-lg"></i>
+              </div>
+              <div>
+                <p className="font-sans text-xs text-darkgray/60">Hemen Arayın</p>
+                <p className="font-sans text-xl font-bold text-darkgray">0540 325 15 25</p>
+              </div>
+            </motion.a>
           </motion.div>
 
           {/* Right Content */}
@@ -75,24 +92,42 @@ const HeroSection = () => {
             className="lg:col-span-2 space-y-6"
           >
             <p className="font-sans text-lg text-darkgray/80 leading-relaxed">
-              Çiftlerden çocuklara, ergenlerden bireysel danışanlara kadar; uzman kadromuzla psikolojik sağlamlığı birlikte inşa ediyoruz. Arges Psikoloji, sizi anlamak ve eşlik etmek için burada.
+              Antalya'da <strong>çocuk psikolojisi</strong>, <strong>ergen danışmanlığı</strong>, <strong>aile terapisi</strong> ve <strong>bireysel terapi</strong> hizmetleri. Uzman psikologlarımızla güvenli bir terapi deneyimi için hemen arayın.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a
+                href="tel:+905403251525"
+                className="bg-olive text-white px-8 py-4 rounded-full font-sans text-base font-medium hover:bg-darkgray transition-all duration-300 shadow-md hover:shadow-lg text-center cursor-pointer whitespace-nowrap flex items-center justify-center space-x-2"
+              >
+                <i className="ri-phone-fill"></i>
+                <span>Hemen Ara</span>
+              </a>
+              <a
                 href="https://wa.me/905403251525"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-darkgray text-white px-8 py-4 rounded-full font-sans text-base font-medium hover:bg-olive transition-all duration-300 shadow-md hover:shadow-lg text-center cursor-pointer whitespace-nowrap"
+                className="bg-[#25D366] text-white px-8 py-4 rounded-full font-sans text-base font-medium hover:bg-[#128C7E] transition-all duration-300 shadow-md hover:shadow-lg text-center cursor-pointer whitespace-nowrap flex items-center justify-center space-x-2"
               >
-                Hemen Randevu Al
+                <i className="ri-whatsapp-fill"></i>
+                <span>WhatsApp</span>
               </a>
-              <Link
-                to="/services"
-                className="bg-transparent text-darkgray px-8 py-4 rounded-full font-sans text-base font-medium border-2 border-darkgray hover:bg-darkgray hover:text-white transition-all duration-300 text-center cursor-pointer whitespace-nowrap"
-              >
-                Hizmetlerimizi Keşfedin
-              </Link>
+            </div>
+
+            {/* Trust Badges */}
+            <div className="flex flex-wrap items-center gap-6 pt-4">
+              <div className="flex items-center space-x-2">
+                <i className="ri-shield-check-fill text-olive text-xl"></i>
+                <span className="font-sans text-sm text-darkgray/70">Uzman Psikologlar</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <i className="ri-user-heart-fill text-olive text-xl"></i>
+                <span className="font-sans text-sm text-darkgray/70">500+ Mutlu Danışan</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <i className="ri-star-fill text-gold text-xl"></i>
+                <span className="font-sans text-sm text-darkgray/70">4.9 Puan</span>
+              </div>
             </div>
           </motion.div>
         </div>

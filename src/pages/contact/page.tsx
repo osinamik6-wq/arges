@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { useState } from 'react';
 import Header from '../../components/feature/Header';
 import Footer from '../../components/feature/Footer';
+import CallBanner from '../../components/feature/CallBanner';
 import WhatsAppButton from '../../components/feature/WhatsAppButton';
 
 const ContactPage = () => {
@@ -55,8 +56,8 @@ const ContactPage = () => {
     {
       icon: 'ri-mail-line',
       title: 'E-posta',
-      content: 'info@argespsikoloji.com',
-      link: 'mailto:info@argespsikoloji.com',
+      content: 'info@antalyaargespsikoloji.com',
+      link: 'mailto:info@antalyaargespsikoloji.com',
     },
     {
       icon: 'ri-map-pin-line',
@@ -80,7 +81,7 @@ const ContactPage = () => {
   return (
     <div className="min-h-screen bg-cream">
       <Header />
-      <WhatsAppButton />
+      <CallBanner />
 
       <main>
         {/* Hero Section */}

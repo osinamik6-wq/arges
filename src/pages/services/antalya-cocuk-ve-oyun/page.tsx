@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion';
 import Header from '../../../components/feature/Header';
 import Footer from '../../../components/feature/Footer';
+import CallBanner from '../../components/feature/CallBanner';
+import CallBanner from '../../../components/feature/CallBanner';
 import WhatsAppButton from '../../../components/feature/WhatsAppButton';
 
 const AntalyaCocukVeOyunPage = () => {
@@ -14,7 +16,7 @@ const AntalyaCocukVeOyunPage = () => {
   return (
     <div className="min-h-screen bg-cream">
       <Header />
-      <WhatsAppButton />
+      <CallBanner />
 
       <main>
         <section className="relative pt-32 pb-20 px-6 lg:px-12 overflow-hidden">
