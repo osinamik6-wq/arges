@@ -50,13 +50,6 @@ const Header = () => {
     { name: 'SAS Balance', icon: 'ri-scales-line', path: '/sas/sas-balance', desc: 'Denge ve uyum' },
   ];
 
-  const testimonialCategories = [
-    { name: 'Çocuk Danışmanlık', icon: 'ri-bear-smile-line', path: '/testimonials/cocuk' },
-    { name: 'Ergen Danışmanlık', icon: 'ri-user-smile-line', path: '/testimonials/ergen' },
-    { name: 'Bireysel Danışmanlık', icon: 'ri-user-heart-line', path: '/testimonials/bireysel' },
-    { name: 'Çift & Aile Danışmanlık', icon: 'ri-heart-2-line', path: '/testimonials/cift-aile' },
-    { name: 'Cinsel Terapi', icon: 'ri-hearts-line', path: '/testimonials/cinsel-terapi' },
-  ];
 
   const handleMouseEnter = (menu: string) => {
     if (window.innerWidth >= 1024) {
@@ -250,55 +243,12 @@ const Header = () => {
                 </AnimatePresence>
               </div>
 
-              {/* Danisan Yorumlari Dropdown */}
-              <div
-                className="relative"
-                onMouseEnter={() => handleMouseEnter('testimonials')}
-                onMouseLeave={handleMouseLeave}
+              <Link
+                to="/testimonials"
+                className="font-sans text-sm font-medium text-darkgray hover:text-olive transition-colors duration-200 cursor-pointer whitespace-nowrap"
               >
-                <button className="font-sans text-sm font-medium text-darkgray hover:text-olive transition-colors duration-200 flex items-center space-x-1 cursor-pointer whitespace-nowrap">
-                  <span>Yorumlar</span>
-                  <i className={`ri-arrow-down-s-line transition-transform duration-200 ${activeDropdown === 'testimonials' ? 'rotate-180' : ''}`}></i>
-                </button>
-
-                <AnimatePresence>
-                  {activeDropdown === 'testimonials' && (
-                    <motion.div
-                      initial={{ opacity: 0, y: 10 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      exit={{ opacity: 0, y: 10 }}
-                      transition={{ duration: 0.2 }}
-                      className="absolute top-full right-0 mt-4 w-64 bg-white rounded-2xl shadow-2xl p-4"
-                    >
-                      <div className="space-y-1">
-                        {testimonialCategories.map((item, idx) => (
-                          <Link
-                            key={idx}
-                            to={item.path}
-                            className="flex items-center space-x-3 p-3 rounded-xl hover:bg-olive/5 transition-colors duration-200 cursor-pointer group"
-                          >
-                            <div className="w-8 h-8 bg-olive/10 rounded-lg flex items-center justify-center group-hover:bg-olive/20 transition-colors duration-200">
-                              <i className={`${item.icon} text-olive text-base`}></i>
-                            </div>
-                            <span className="font-sans text-sm text-darkgray group-hover:text-olive transition-colors duration-200">
-                              {item.name}
-                            </span>
-                          </Link>
-                        ))}
-                      </div>
-                      <div className="mt-4 pt-4 border-t border-darkgray/10">
-                        <Link
-                          to="/testimonials"
-                          className="flex items-center justify-center space-x-2 text-olive hover:text-darkgray transition-colors duration-200 cursor-pointer"
-                        >
-                          <span className="font-sans text-sm font-medium">Tüm Yorumlar</span>
-                          <i className="ri-arrow-right-line"></i>
-                        </Link>
-                      </div>
-                    </motion.div>
-                  )}
-                </AnimatePresence>
-              </div>
+                Yorumlar
+              </Link>
 
               <Link
                 to="/team"
@@ -495,50 +445,15 @@ const Header = () => {
                     </AnimatePresence>
                   </div>
 
-                  {/* Mobile Yorumlar Dropdown */}
-                  <div>
-                    <button
-                      onClick={() => setActiveMobileSubmenu(activeMobileSubmenu === 'testimonials' ? null : 'testimonials')}
-                      className="w-full flex items-center justify-between px-4 py-3 rounded-xl font-sans text-sm font-medium text-darkgray hover:bg-olive/5 transition-colors duration-200 cursor-pointer"
-                    >
-                      <span className="flex items-center space-x-2">
-                        <i className="ri-chat-quote-line text-olive"></i>
-                        <span>Danışan Yorumları</span>
-                      </span>
-                      <i className={`ri-arrow-down-s-line transition-transform duration-200 ${activeMobileSubmenu === 'testimonials' ? 'rotate-180' : ''}`}></i>
-                    </button>
-                    <AnimatePresence>
-                      {activeMobileSubmenu === 'testimonials' && (
-                        <motion.div
-                          initial={{ height: 0, opacity: 0 }}
-                          animate={{ height: 'auto', opacity: 1 }}
-                          exit={{ height: 0, opacity: 0 }}
-                          transition={{ duration: 0.2 }}
-                          className="overflow-hidden"
-                        >
-                          <div className="pl-4 pt-2 space-y-1">
-                            {testimonialCategories.map((item, idx) => (
-                              <Link
-                                key={idx}
-                                to={item.path}
-                                className="flex items-center space-x-3 px-4 py-2.5 rounded-lg hover:bg-olive/5 transition-colors duration-200 cursor-pointer"
-                              >
-                                <i className={`${item.icon} text-olive text-base`}></i>
-                                <span className="font-sans text-sm text-darkgray">{item.name}</span>
-                              </Link>
-                            ))}
-                            <Link
-                              to="/testimonials"
-                              className="flex items-center space-x-3 px-4 py-2.5 rounded-lg bg-olive/5 hover:bg-olive/10 transition-colors duration-200 cursor-pointer"
-                            >
-                              <i className="ri-arrow-right-line text-olive text-base"></i>
-                              <span className="font-sans text-sm font-medium text-olive">Tüm Yorumlar</span>
-                            </Link>
-                          </div>
-                        </motion.div>
-                      )}
-                    </AnimatePresence>
-                  </div>
+                  <Link
+                    to="/testimonials"
+                    className="block px-4 py-3 rounded-xl font-sans text-sm font-medium text-darkgray hover:bg-olive/5 transition-colors duration-200 cursor-pointer"
+                  >
+                    <span className="flex items-center space-x-2">
+                      <i className="ri-chat-quote-line text-olive"></i>
+                      <span>Danışan Yorumları</span>
+                    </span>
+                  </Link>
 
                   <Link
                     to="/team"
