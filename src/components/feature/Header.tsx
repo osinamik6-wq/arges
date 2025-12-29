@@ -79,8 +79,8 @@ const Header = () => {
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <Link to="/" className="flex items-center space-x-3 cursor-pointer">
-              <div className="w-10 h-10 bg-olive rounded-xl flex items-center justify-center">
-                <i className="ri-psychotherapy-line text-white text-xl"></i>
+              <div className="w-10 h-10 bg-olive rounded-xl flex items-center justify-center p-1.5">
+                <img src="/logo-icon.webp" alt="Arges Logo" className="w-full h-full object-contain brightness-0 invert" />
               </div>
               <span className="font-serif text-2xl font-bold text-darkgray">
                 Arges Psikoloji

@@ -133,7 +133,7 @@ const Footer = () => {
             © 2025 Arges Psikoloji. Tüm hakları saklıdır.
           </p>
           <span className="font-sans text-sm text-darkgray/60 mt-4 md:mt-0">
-            Powered by UfukT
+            Powered by Killer Master Turkey
           </span>
         </div>
       </div>
